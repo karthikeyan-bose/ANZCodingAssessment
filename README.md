@@ -29,8 +29,8 @@ The focus is on architecture and code quality rather than UI design.
 - Unit tests using a Mock service
 - Handles loading and error states
 
-> Note: SwiftUI’s property wrappers (`@StateObject`, `@Published`) internally use Combine.
-> I preferred async/await for cleaner and modern concurrency handling.
+> Note: SwiftUI’s `@StateObject` and `@Published` handle updates automatically. I used async/await for simple and clean networking.
+
 
 ---
 
@@ -41,7 +41,6 @@ The focus is on architecture and code quality rather than UI design.
 - Deployment Target: iOS 17.0
 - SwiftUI
 - Async/Await
-- Combine (implicit)
 - XCTest (unit testing)
 
 ---
@@ -66,5 +65,4 @@ The focus is on architecture and code quality rather than UI design.
 ## Author
 
 **Karthikeyan Bose**
-Senior iOS Engineer – Swift | SwiftUI | Architecture
-📍 Bengaluru, India
+Senior iOS Engineer – Swift | SwiftUI | MVVM Architecture
