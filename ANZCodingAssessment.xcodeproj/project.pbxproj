@@ -29,25 +29,38 @@
 
 /* Begin PBXFileReference section */
 		288A5B3F2EA2161F0020765B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		28DFF7AE2EA1ECEC002BA737 /* ANZCodingAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANZCodingAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28DFF7BC2EA1ECED002BA737 /* ANZCodingAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANZCodingAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28DFF7C62EA1ECED002BA737 /* ANZCodingAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANZCodingAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFF7AE2EA1ECEC002BA737 /* ANZCodingAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANZCodingAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFF7BC2EA1ECED002BA737 /* ANZCodingAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANZCodingAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFF7C62EA1ECED002BA737 /* ANZCodingAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANZCodingAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		289B597E2EA221C100DD53D9 /* Exceptions for "ANZCodingAssessment" folder in "Copy Bundle Resources" phase from "ANZCodingAssessment" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 28DFF7AC2EA1ECEC002BA737 /* Resources */;
+			membershipExceptions = (
+				ANZCodingAssessment.entitlements,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		28DFF7B02EA1ECEC002BA737 /* ANZCodingAssesment */ = {
+		28DFF7B02EA1ECEC002BA737 /* ANZCodingAssessment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ANZCodingAssesment;
+			exceptions = (
+				289B597E2EA221C100DD53D9 /* Exceptions for "ANZCodingAssessment" folder in "Copy Bundle Resources" phase from "ANZCodingAssessment" target */,
+			);
+			path = ANZCodingAssessment;
 			sourceTree = "<group>";
 		};
-		28DFF7BF2EA1ECED002BA737 /* ANZCodingAssesmentTests */ = {
+		28DFF7BF2EA1ECED002BA737 /* ANZCodingAssessmentTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ANZCodingAssesmentTests;
+			path = ANZCodingAssessmentTests;
 			sourceTree = "<group>";
 		};
-		28DFF7C92EA1ECED002BA737 /* ANZCodingAssesmentUITests */ = {
+		28DFF7C92EA1ECED002BA737 /* ANZCodingAssessmentUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ANZCodingAssesmentUITests;
+			path = ANZCodingAssessmentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -81,9 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				288A5B3F2EA2161F0020765B /* README.md */,
-				28DFF7B02EA1ECEC002BA737 /* ANZCodingAssesment */,
-				28DFF7BF2EA1ECED002BA737 /* ANZCodingAssesmentTests */,
-				28DFF7C92EA1ECED002BA737 /* ANZCodingAssesmentUITests */,
+				28DFF7B02EA1ECEC002BA737 /* ANZCodingAssessment */,
+				28DFF7BF2EA1ECED002BA737 /* ANZCodingAssessmentTests */,
+				28DFF7C92EA1ECED002BA737 /* ANZCodingAssessmentUITests */,
 				28DFF7AF2EA1ECEC002BA737 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,9 +104,9 @@
 		28DFF7AF2EA1ECEC002BA737 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28DFF7AE2EA1ECEC002BA737 /* ANZCodingAssesment.app */,
-				28DFF7BC2EA1ECED002BA737 /* ANZCodingAssesmentTests.xctest */,
-				28DFF7C62EA1ECED002BA737 /* ANZCodingAssesmentUITests.xctest */,
+				28DFF7AE2EA1ECEC002BA737 /* ANZCodingAssessment.app */,
+				28DFF7BC2EA1ECED002BA737 /* ANZCodingAssessmentTests.xctest */,
+				28DFF7C62EA1ECED002BA737 /* ANZCodingAssessmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssesment */ = {
+		28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssessment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DFF7D02EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssesment" */;
+			buildConfigurationList = 28DFF7D02EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssessment" */;
 			buildPhases = (
 				28DFF7AA2EA1ECEC002BA737 /* Sources */,
 				28DFF7AB2EA1ECEC002BA737 /* Frameworks */,
@@ -114,18 +127,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				28DFF7B02EA1ECEC002BA737 /* ANZCodingAssesment */,
+				28DFF7B02EA1ECEC002BA737 /* ANZCodingAssessment */,
 			);
-			name = ANZCodingAssesment;
+			name = ANZCodingAssessment;
 			packageProductDependencies = (
 			);
 			productName = ANZCodingAssesment;
-			productReference = 28DFF7AE2EA1ECEC002BA737 /* ANZCodingAssesment.app */;
+			productReference = 28DFF7AE2EA1ECEC002BA737 /* ANZCodingAssessment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28DFF7BB2EA1ECED002BA737 /* ANZCodingAssesmentTests */ = {
+		28DFF7BB2EA1ECED002BA737 /* ANZCodingAssessmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DFF7D32EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssesmentTests" */;
+			buildConfigurationList = 28DFF7D32EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssessmentTests" */;
 			buildPhases = (
 				28DFF7B82EA1ECED002BA737 /* Sources */,
 				28DFF7B92EA1ECED002BA737 /* Frameworks */,
@@ -137,18 +150,18 @@
 				28DFF7BE2EA1ECED002BA737 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				28DFF7BF2EA1ECED002BA737 /* ANZCodingAssesmentTests */,
+				28DFF7BF2EA1ECED002BA737 /* ANZCodingAssessmentTests */,
 			);
-			name = ANZCodingAssesmentTests;
+			name = ANZCodingAssessmentTests;
 			packageProductDependencies = (
 			);
 			productName = ANZCodingAssesmentTests;
-			productReference = 28DFF7BC2EA1ECED002BA737 /* ANZCodingAssesmentTests.xctest */;
+			productReference = 28DFF7BC2EA1ECED002BA737 /* ANZCodingAssessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		28DFF7C52EA1ECED002BA737 /* ANZCodingAssesmentUITests */ = {
+		28DFF7C52EA1ECED002BA737 /* ANZCodingAssessmentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DFF7D62EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssesmentUITests" */;
+			buildConfigurationList = 28DFF7D62EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssessmentUITests" */;
 			buildPhases = (
 				28DFF7C22EA1ECED002BA737 /* Sources */,
 				28DFF7C32EA1ECED002BA737 /* Frameworks */,
@@ -160,13 +173,13 @@
 				28DFF7C82EA1ECED002BA737 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				28DFF7C92EA1ECED002BA737 /* ANZCodingAssesmentUITests */,
+				28DFF7C92EA1ECED002BA737 /* ANZCodingAssessmentUITests */,
 			);
-			name = ANZCodingAssesmentUITests;
+			name = ANZCodingAssessmentUITests;
 			packageProductDependencies = (
 			);
 			productName = ANZCodingAssesmentUITests;
-			productReference = 28DFF7C62EA1ECED002BA737 /* ANZCodingAssesmentUITests.xctest */;
+			productReference = 28DFF7C62EA1ECED002BA737 /* ANZCodingAssessmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28DFF7A92EA1ECEC002BA737 /* Build configuration list for PBXProject "ANZCodingAssesment" */;
+			buildConfigurationList = 28DFF7A92EA1ECEC002BA737 /* Build configuration list for PBXProject "ANZCodingAssessment" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -206,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssesment */,
-				28DFF7BB2EA1ECED002BA737 /* ANZCodingAssesmentTests */,
-				28DFF7C52EA1ECED002BA737 /* ANZCodingAssesmentUITests */,
+				28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssessment */,
+				28DFF7BB2EA1ECED002BA737 /* ANZCodingAssessmentTests */,
+				28DFF7C52EA1ECED002BA737 /* ANZCodingAssessmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,12 +278,12 @@
 /* Begin PBXTargetDependency section */
 		28DFF7BE2EA1ECED002BA737 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssesment */;
+			target = 28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssessment */;
 			targetProxy = 28DFF7BD2EA1ECED002BA737 /* PBXContainerItemProxy */;
 		};
 		28DFF7C82EA1ECED002BA737 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssesment */;
+			target = 28DFF7AD2EA1ECEC002BA737 /* ANZCodingAssessment */;
 			targetProxy = 28DFF7C72EA1ECED002BA737 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,7 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ANZCodingAssesment/ANZCodingAssesment.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ANZCodingAssessment/ANZCodingAssessment.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -415,7 +428,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KN.ANZCodingAssesment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KN.ANZCodingAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -433,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ANZCodingAssesment/ANZCodingAssesment.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ANZCodingAssessment/ANZCodingAssessment.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -453,7 +466,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KN.ANZCodingAssesment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KN.ANZCodingAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -483,7 +496,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANZCodingAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ANZCodingAssesment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANZCodingAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ANZCodingAssessment";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Debug;
@@ -505,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANZCodingAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ANZCodingAssesment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANZCodingAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ANZCodingAssessment";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Release;
@@ -555,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28DFF7A92EA1ECEC002BA737 /* Build configuration list for PBXProject "ANZCodingAssesment" */ = {
+		28DFF7A92EA1ECEC002BA737 /* Build configuration list for PBXProject "ANZCodingAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28DFF7CE2EA1ECED002BA737 /* Debug */,
@@ -564,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DFF7D02EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssesment" */ = {
+		28DFF7D02EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28DFF7D12EA1ECED002BA737 /* Debug */,
@@ -573,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DFF7D32EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssesmentTests" */ = {
+		28DFF7D32EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssessmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28DFF7D42EA1ECED002BA737 /* Debug */,
@@ -582,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DFF7D62EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssesmentUITests" */ = {
+		28DFF7D62EA1ECED002BA737 /* Build configuration list for PBXNativeTarget "ANZCodingAssessmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28DFF7D72EA1ECED002BA737 /* Debug */,

@@ -1,13 +1,13 @@
 //
-//  ANZCodingAssesmentUITestsLaunchTests.swift
-//  ANZCodingAssesmentUITests
+//  ANZCodingAssessmentUITestsLaunchTests.swift
+//  ANZCodingAssessmentUITests
 //
 //  Created by Karthikeyan Bose on 17/10/25.
 //
 
 import XCTest
 
-final class ANZCodingAssesmentUITestsLaunchTests: XCTestCase {
+final class ANZCodingAssessmentUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

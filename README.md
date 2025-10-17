@@ -1,6 +1,6 @@
 //
 //  README.md
-//  ANZCodingAssesment
+//  ANZCodingAssessment
 
 # ANZ Coding Assessment
 

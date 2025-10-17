@@ -1,12 +1,12 @@
 //
 //  MockUserService.swift
-//  ANZCodingAssesmentTests
+//  ANZCodingAssessmentTests
 //
 //  Created by Karthikeyan Bose on 17/10/25.
 //
 
 import Foundation
-@testable import ANZCodingAssesment
+@testable import ANZCodingAssessment
 
 final class MockUserService: NetworkServiceProtocol {
     
@@ -22,7 +22,7 @@ final class MockUserService: NetworkServiceProtocol {
                             
     ]
 
-    func fetchUsers() async throws -> [ANZCodingAssesment.User] {
+    func fetchUsers() async throws -> [ANZCodingAssessment.User] {
         if shouldFail {
             switch errorToThrow {
             case .badURL:

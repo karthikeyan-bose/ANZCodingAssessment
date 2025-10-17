@@ -1,15 +1,15 @@
 //
-//  ANZCodingAssesmentTests.swift
-//  ANZCodingAssesmentTests
+//  ANZCodingAssessmentTests.swift
+//  ANZCodingAssessmentTests
 //
 //  Created by Karthikeyan Bose on 17/10/25.
 //
 
 import XCTest
-@testable import ANZCodingAssesment
+@testable import ANZCodingAssessment
 
 @MainActor
-final class ANZCodingAssesmentTests: XCTestCase {
+final class ANZCodingAssessmentTests: XCTestCase {
 
     var mockService: MockUserService!
     var viewModel: UserListViewModel!

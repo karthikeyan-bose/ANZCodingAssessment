@@ -1,13 +1,13 @@
 //
-//  ANZCodingAssesmentUITests.swift
-//  ANZCodingAssesmentUITests
+//  ANZCodingAssessmentUITests.swift
+//  ANZCodingAssessmentUITests
 //
 //  Created by Karthikeyan Bose on 17/10/25.
 //
 
 import XCTest
 
-final class ANZCodingAssesmentUITests: XCTestCase {
+final class ANZCodingAssessmentUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
